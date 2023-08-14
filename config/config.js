@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export default {
-    MONGO_URL:"mongodb://localhost:27017",
+    MONGO_URL:"mongodb://localhost:27017/jaggerstore",
 
     CLIENT_ID: process.env.CLIENT_ID,
     CLIENT_SECRET: process.env.CLIENT_SECRET,
